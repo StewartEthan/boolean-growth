@@ -46,7 +46,7 @@ export default function App() {
         <p>
           Use the input below to add names of boolean properties, look at the
           output below to see how many combinations can be made.{' '}
-          <a href="https://kyleshevlin.com/enumerate-dont-booleanate">
+          <a href="https://kyleshevlin.com/enumerate-dont-booleanate" target="_blank" rel="noopener noreferrer">
             Kyle Shevlin has a great article on why this is important in
             application state.
           </a>
@@ -204,13 +204,13 @@ export default function App() {
           textAlign: `center`,
         }}
       >
-        Made by <a href="https://twitter.com/_estewart">Ethan Stewart</a>.
+        Made by <a href="https://twitter.com/_estewart" target="_blank" rel="noopener noreferrer">Ethan Stewart</a>.
         Inspired by{' '}
-        <a href="https://twitter.com/kyleshevlin/status/1240776323519283200">
+        <a href="https://twitter.com/kyleshevlin/status/1240776323519283200" target="_blank" rel="noopener noreferrer">
           Kyle Shevlin
         </a>
         . Code on{' '}
-        <a href="https://codesandbox.io/s/hungry-minsky-sccie">CodeSandbox</a>.
+        <a href="https://github.com/StewartEthan/boolean-growth" target="_blank" rel="noopener noreferrer">GitHub</a>.
       </footer>
     </React.Fragment>
   )
