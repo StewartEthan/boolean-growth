@@ -3,8 +3,11 @@ import React from 'react'
 import { css, jsx, Global } from '@emotion/core'
 
 export default function App() {
-  const [booleans, setBooleans] = React.useState([])
+  const [booleans, setBooleansState] = React.useState([])
   const combos = getAllCombos(booleans)
+  const setBooleans = list => {
+    setBooleansState([...new Set(list)])
+  }
   return (
     <React.Fragment>
       <Global
