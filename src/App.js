@@ -3,7 +3,7 @@ import React from 'react'
 import { css, jsx, Global } from '@emotion/core'
 
 export default function App() {
-  const [booleans, setBooleans] = React.useState([`hasError`, `isValid`])
+  const [booleans, setBooleans] = React.useState([])
   const combos = getAllCombos(booleans)
   return (
     <React.Fragment>
