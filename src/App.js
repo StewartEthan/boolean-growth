@@ -221,7 +221,7 @@ export default function App() {
 
 function getAllCombos(booleans) {
   const table = getBooleanTable(booleans.length)
-  return table.map(row => row.map((bool, idx) => `${booleans[idx]}: ${bool}`))
+  return table.map(row => row.map((value, idx) => `${booleans[idx]}: ${value}`))
 }
 // Credit to Kyle Shevlin: https://gist.github.com/kyleshevlin/39e4e213e2c057a97684b1b9c38ebcd1
 function getBooleanTable(number) {
