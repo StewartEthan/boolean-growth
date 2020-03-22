@@ -6,7 +6,7 @@ export default function App() {
   const [booleans, setBooleans] = React.useState([`hasError`, `isValid`])
   const combos = getAllCombos(booleans)
   return (
-    <>
+    <React.Fragment>
       <Global
         styles={css`
           body {
@@ -212,7 +212,7 @@ export default function App() {
         . Code on{' '}
         <a href="https://codesandbox.io/s/hungry-minsky-sccie">CodeSandbox</a>.
       </footer>
-    </>
+    </React.Fragment>
   )
 }
 
